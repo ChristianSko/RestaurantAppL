@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WineBarView.swift
 //  RestaurantAppL
 //
 //  Created by Christian Skorobogatow on 25/1/21.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WineBarView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Wine Bar view")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WineBarView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WineBarView()
     }
 }
